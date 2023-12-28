@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/star/IdeaProjects/testwebdriver"><classes><class name="TestCases.LoginTest"><methods><include name="testSuccessfulLogin"/>
+        <include name="testLoginWithEmptyEmailField"/><include name="testLoginWithEmptyPassword"/><include name="testLoginWithUnregisteredEmail"/></methods></class><class name="TestCases.SearchTest"><methods><include name="testSearchWithProductName"/><include name="testSearchWithProductSKU"/><include name="testSearchWithProductNameNotFound"/></methods></class><class name="TestCases.ShoppingCartTest"><methods><include name="AddToShoppingCartSuccessfully"/></methods></class><class name="TestCases.WishingListTests"><methods><include name="AddToWishingListSuccessfully"/></methods></class></classes></test></suite>
